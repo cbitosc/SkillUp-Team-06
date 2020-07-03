@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wlp">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="My Profile"
+    android:layout_marginTop="10sp"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    android:background="@android:color/holo_blue_bright"
+    android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+       android:paddingTop="5sp"
+        android:paddingBottom="5sp"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:layout_marginTop="50sp"
+        android:layout_marginBottom="10sp"
+        android:textAlignment="center"
+        android:id="@+id/rollno"
+        android:background="#99f"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/name"
+        android:textAlignment="center"
+        android:background="#99f"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10sp"
+        android:paddingTop="5sp"
+        android:paddingBottom="5sp"
+        />
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center"
+            android:text=""
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="10sp"
+            android:id="@+id/branch"
+            android:paddingTop="5sp"
+            android:background="#99f"
+            android:paddingBottom="5sp"/>
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="50sp"
+            android:id="@+id/year"
+            android:text=""
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="10sp"
+            android:paddingTop="5sp"
+            android:background="#99f"
+            android:paddingBottom="5sp"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/grade"
+            android:textAlignment="center"
+            android:text=""
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="10sp"
+            android:textSize="20sp"
+            android:paddingTop="5sp"
+            android:background="#99f"
+            android:paddingBottom="5sp"/>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textSize="23sp"
+             android:textStyle="italic"
+             android:text=""
+             android:textAlignment="center"
+             android:id="@+id/email"
+             android:layout_marginTop="10sp"
+             android:layout_marginBottom="10sp"
+             android:paddingTop="5sp"
+             android:background="#99f"
+             android:paddingBottom="5sp"/>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Note: To make changes contact Admin"
+             android:textStyle="bold"
+             android:textSize="20sp"
+             android:background="@drawable/border"
+             android:textAlignment="center"
+             android:layout_marginTop="70sp"
+             android:paddingTop="20sp"
+             android:paddingBottom="20sp"/>
+
+
+</LinearLayout>

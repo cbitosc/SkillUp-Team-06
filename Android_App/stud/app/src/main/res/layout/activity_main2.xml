@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/wlp"
+    tools:context=".Main2Activity">
+
+   <Button
+       android:layout_width="150sp"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="50sp"
+       android:layout_marginTop="10sp"
+       android:textAlignment="center"
+       android:text="Clubs"
+       android:id="@+id/but2"
+       android:layout_gravity="center"
+       android:background="#2db2eb"
+       android:textColor="#0d161a"
+       android:textStyle="bold"
+       />
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="50sp"
+        android:text="MY CLUBS"
+        android:textStyle="bold"
+        android:textColor="#0d161a"
+        android:background="#2db2eb"/>
+
+
+    <Button
+        android:id="@+id/but3"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="40sp"
+        android:text="Profile"
+        android:textStyle="bold"
+        android:textColor="#0d161a"
+        android:background="#2db2eb"/>
+    <Button
+        android:id="@+id/but4"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"
+        android:text="LogOut"
+        android:textStyle="bold"
+        android:textColor="#0d161a"
+        android:background="#2db2eb"/>
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:text="Hello, You can navigate from here to other pages directly by pressing any respective button"
+        android:textStyle="bold"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:textAlignment="center"
+        android:textColor="#0000ff"
+        android:textSize="15sp"
+        android:layout_marginTop="30sp"/>
+
+</LinearLayout>

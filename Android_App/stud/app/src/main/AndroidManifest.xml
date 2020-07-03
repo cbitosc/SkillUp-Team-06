@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.stud">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/lag"
+        android:label="Clubs"
+        android:roundIcon="@drawable/lag"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        >
+        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".ActiveActivity"></activity>
+        <activity android:name=".ClubActivity"></activity>
+        <activity android:name=".Main2Activity"></activity>
+        <activity android:name=".AllClubActivity"></activity>
+        <activity android:name=".Communicando"></activity>
+        <activity android:name=".Cosc"></activity>
+        <activity android:name=".Gcd"></activity>
+        <activity android:name=".Ieee"></activity>
+        <activity android:name=".Robotics"></activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

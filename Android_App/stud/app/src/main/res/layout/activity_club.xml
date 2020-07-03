@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/wlp"
+    android:scrollbarAlwaysDrawHorizontalTrack="true"
+    android:scrollbars="horizontal"
+    >
+
+    <TextView
+        android:id="@+id/tvc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:text=""
+        />
+
+    <ListView
+        android:layout_marginTop="30sp"
+        android:layout_marginBottom="50sp"
+        android:id="@+id/lstData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="1dp"
+        android:background="@android:color/holo_blue_light"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:layout_marginTop="40sp"
+        android:layout_marginBottom="40sp"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:text="APPLY NEW"
+        android:layout_gravity="center"
+        android:background="#0ef"
+        android:textColor="#000000"
+        android:id="@+id/clubbut"/>
+
+    <ListView
+        android:layout_marginTop="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/applylist"
+        android:background="@android:color/holo_blue_light"
+        android:layout_gravity="center"
+        android:dividerHeight="1dp"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="On clicking or touching the item you can know the status of application or can directly apply"
+        android:textAlignment="center"
+        android:textColor="#00f"
+        android:layout_marginTop="50sp"
+        android:layout_marginBottom="40sp"
+        android:paddingBottom="20sp"
+        android:paddingTop="20sp"
+        />
+
+
+</LinearLayout>

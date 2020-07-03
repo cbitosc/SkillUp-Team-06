@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:scrollbarFadeDuration="@android:integer/status_bar_notification_info_maxnum"
+    android:background="@drawable/wlp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THESE ARE YOUR ACTIVITIES"
+        android:background="@drawable/border"
+        android:layout_marginTop="30sp"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/tva"
+        android:textColor="#000000"/>
+
+    <ListView
+        android:id="@+id/lstData1"
+        android:background="#0ff"
+        android:dividerHeight="1dp"
+        android:layout_marginTop="40sp"
+        android:layout_marginBottom="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        />
+
+</LinearLayout>
